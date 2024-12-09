@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color:black;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+header {
+    color: white;
+    background-color: #91A6E4;
+    padding: 20px 0;
+
+}
+
+footer {
+    background-color: #91A6E4;
+    color: white;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    /* desce 100%*/
+    width: 100%;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+h1 {
+    text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #91A6E4;
+}
+
+.contact-form {
+    padding: 20px;
+} 
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #91A6E4 solid 2px;
+    
+    
+}
+
+
+label,
+input,
+textarea,
+button {
+
+    margin: 10px 0;
+    width: 300px;
+    resize: none;
+    outline: none;
+}
+
+
+button {
+    margin-bottom: 10px;
+    background-color: #91A6E4;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: 1s;
+    /*passando o mouse vira uma mão */
+}
+
+button:hover {
+    background-color: rgb(43, 88, 161)
+}
+
+label {
+    color: #91A6E4;
+}
+
+.caixa-input {
+    height: 30px;
+    background-color: #f3f3f3;
+    border: 2px #91A6E4 solid;
+}
